@@ -1,0 +1,20 @@
+function preload() {
+  myFont = loadFont("imagens/assets/8BIT.TTF");
+  myFont2 = loadFont("imagens/assets/Beta.ttf");
+  ImagemCenario2 = loadImage("imagens/cenario/Cenario2.png");
+  ImagemCenario = loadImage("imagens/cenario/Cenario.png");
+  ImagemGameOver = loadImage("imagens/assets/GameOver.png");
+  ImagemPause = loadImage("imagens/assets/pause.png");
+  ImagemBlur = loadImage("imagens/assets/blur.png");
+  ImagemBlurGrey = loadImage("imagens/assets/greyblur.png");
+  ImagemPersonagem = loadImage("imagens/personagem/Robot.png");
+  ImagemPulo = loadImage("imagens/personagem/RobotJump.png");
+  ImagemInimigo = loadImage("imagens/inimigos/Lizard.png");
+  ImagemInimigoVoador = loadImage("imagens/inimigos/FlyLizard.png");
+  ImagemTelaInicial = loadImage("imagens/assets/ROBOT_AND_LIZARD.png");
+  ImagemVida = loadImage("imagens/assets/VidaRobo.png");
+  TrilhaSonora = loadSound("sons/Lizard_SoundTrack.mp3");
+  SomPulo = loadSound("sons/jumping.mp3");
+  SomDano = loadSound("sons/Damage.mp3");
+  SomPerdeu = loadSound("sons/encerramento.mp3");
+}
